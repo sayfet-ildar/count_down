@@ -1,9 +1,9 @@
 
 import {
   intervalToDuration, formatDuration, differenceInSeconds,
-} from 'date-fns';
+} from './node_modules/date-fns';
 
-import { ru } from 'date-fns/locale';
+import { ru } from './node_modules/date-fns/locale';
 
 const elements = {
   button: document.querySelector('.calc'),
