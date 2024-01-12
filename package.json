@@ -1,0 +1,21 @@
+{
+  "name": "15npm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html"
+  },
+  "author": "ildar",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "parcel": "^2.11.0"
+  },
+  "dependencies": {
+    "countdown.js": "^0.0.6",
+    "date-fns": "^3.1.0"
+  }
+}
